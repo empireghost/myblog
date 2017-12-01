@@ -1,6 +1,8 @@
 ---
 title: IDEA插件
 date: 2017-11-28 18:43:08
+categories:
+    - IDEA
 tags:
     IDEA
 ---

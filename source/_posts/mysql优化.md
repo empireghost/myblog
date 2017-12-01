@@ -1,6 +1,8 @@
 ---
 title: mysql优化
 date: 2017-11-28 18:52:34
+categories:
+    - mysql
 tags:
     mysql
 ---
