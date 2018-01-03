@@ -2,7 +2,7 @@
 title: eclipse插件
 date: 2017-11-28 18:43:24
 categories:
-    - eclipse
+    eclipse
 tags:
     eclipse
 ---
