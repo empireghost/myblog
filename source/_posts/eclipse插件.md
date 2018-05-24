@@ -8,9 +8,9 @@ tags:
 ---
 #####eclipse插件
 ```
-http://dist.springsource.com/release/TOOLS/update/e4.4/
 
 http://propedit.sourceforge.jp/eclipse/updates/
+
 http://findbugs.cs.umd.edu/eclipse
 
 http://dl.bintray.com/ajermakovics/InstaSearch/
@@ -23,18 +23,13 @@ http://download.eclipse.org/technology/m2e/releases
 
 http://download.eclipse.org/recommenders/updates/stable/
 
-http://dist.springsource.org/release/GRECLIPSE/e4.2/
-http://subclipse.tigris.org/update_1.6.x
-http://dist.springsource.com/release/TOOLS/update/e4.2/
-http://propedit.sourceforge.jp/eclipse/updates/
-http://subclipse.tigris.org/update_1.6.x
-http://findbugs.cs.umd.edu/eclipse
 http://dist.springsource.com/release/TOOLS/cloudfoundry
-http://disy.github.com/perclipse/
-http://dist.springsource.com/release/TOOLS/update/e4.2/
-http://dist.sonar-ide.codehaus.org/eclipse/
 
- 
+http://disy.github.com/perclipse/
+
+http://dist.springsource.com/release/TOOLS/update/e4.2/
+
+http://dist.sonar-ide.codehaus.org/eclipse/
 
 http://eclipse-color-theme.github.com/update
 
@@ -58,9 +53,9 @@ http://download.eclipse.org/recommenders/updates/stable/
 
 http://subclipse.tigris.org/update_1.8.x
 
- mybatis - http://dl.bintray.com/harawata/eclipse
+mybatis - http://dl.bintray.com/harawata/eclipse
 
- buildship - http://download.eclipse.org/buildship/updates/e46/releases/2.x
+buildship - http://download.eclipse.org/buildship/updates/e46/releases/2.x
 
 checker java - http://types.cs.washington.edu/checker-framework/eclipse
 
@@ -71,4 +66,17 @@ theme - http://eclipse-color-theme.github.io/update/
 Subclipse 1.12.x Update Site - http://subclipse.tigris.org/update_1.12.x
 
 http://eclipse-jetty.github.io/update/
+
+https://p3c.alibaba.com/plugin/eclipse/update
+http://download.eclipse.org/buildship/updates/e46/releases/2.x
+http://eclipse-jetty.github.io/update/
+http://findbugs.cs.umd.edu/eclipse
+http://dl.bintray.com/ajermakovics/InstaSearch/
+http://dl.bintray.com/harawata/eclipse
+http://propedit.sourceforge.jp/eclipse/updates/
+https://eclipse-uc.sonarlint.org
+https://spotbugs.github.io/eclipse/
+http://eclipse-color-theme.github.io/update/
+https://github.com/ajermakovics/eclipse-instasearch
+
 ```

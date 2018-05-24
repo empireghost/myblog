@@ -20,7 +20,17 @@ Findbugs
 
 Scala
 
- 
+Alibaba Java Coding Guidelines
+
+CopyFQNPlugin
+
+Free Mybatis plugin
+
+iBATIS/MyBatis plugin
+
+Lombok
+
+SonarLint
 
 dirname $0
 
