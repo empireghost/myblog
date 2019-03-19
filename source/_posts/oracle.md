@@ -1,0 +1,28 @@
+---
+title: '''oracle'''
+date: 2019-03-19 14:11:37
+tags:
+---
+
+
+
+### oracle 判断某个字段是否是数值
+
+```java
+SELECT distinct con.ACCOUNT_BANK_NAME
+  FROM USER_BANK CON
+ WHERE TRIM(TRANSLATE(CON.ACCOUNT_BANK_NAME, '0123456789', ' ')) IS NULL;
+
+```
+
+
+
+
+
+```sql
+SELECT DISTINCT CON.ACCOUNT_BANK_NAME
+  FROM USER_BANK CON
+ WHERE CON.CDEFAULT_FLAG = '0'
+   AND TRIM(TRANSLATE(NVL(CON.ACCOUNT_BANK_NAME, 'X'), '0123456789', ' ')) IS NULL;
+```
+
