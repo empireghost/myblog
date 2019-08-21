@@ -1,11 +1,9 @@
 ---
 layout: '''apache'
-title: Curator'
+title: Curator
 date: 2019-03-19 14:33:27
 tags:
 ---
-
-
 
 
 

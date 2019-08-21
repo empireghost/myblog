@@ -8,7 +8,7 @@ tags: commons-io file size
 
 ### maven 依赖
 
-```
+```java
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
@@ -18,7 +18,7 @@ tags: commons-io file size
 
 ### 1   使用标准java API
 
-```
+```java
 private long getFileSize(File file) {
     long length = file.length();
     return length;
@@ -27,7 +27,7 @@ private long getFileSize(File file) {
 
 ### 2  使用Java  nio
 
-```
+```java
     Path imageFilePath = Paths.get("src/test/resources/image.jpg");
     FileChannel imageFileChannel = FileChannel.open(imageFilePath);
     long imageFileSize = imageFileChannel.size();
@@ -35,7 +35,7 @@ private long getFileSize(File file) {
 
 ### 3   使用    Apache Commons IO
 
-```
+```java
 File imageFile = new File("src/test/resources/image.jpg");
 long size = FileUtils.sizeOf(imageFile);
 FileUtils.byteCountToDisplaySize(size)

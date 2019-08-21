@@ -9,7 +9,7 @@ tags:
 
 ### maven依赖
 
-```
+```java
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
@@ -24,7 +24,7 @@ tags:
 
 ### 1 使用 NIO 的Files类
 
-```
+```java
 try (Stream<String> fileStream = Files.lines(Paths.get(INPUT_FILE_NAME))) {
         int noOfLines = (int) fileStream.count();
 }
@@ -35,7 +35,7 @@ int noOfLines = fileStream.size();
 
 ### 2    NIO *FileChannel*
 
-```
+```java
 int noOfLines = 1;
 try (FileChannel channel = FileChannel.open(Paths.get(INPUT_FILE_NAME), StandardOpenOption.READ)) {
 	ByteBuffer byteBuffer = channel.map(MapMode.READ_ONLY, 0, channel.size());
@@ -50,7 +50,7 @@ try (FileChannel channel = FileChannel.open(Paths.get(INPUT_FILE_NAME), Standard
 
 ### 3    Google Guava *Files* 
 
-```
+```java
 List<String> lineItems = Files.readLines(Paths.get(INPUT_FILE_NAME)
              .toFile(), Charset.defaultCharset());
 int noOfLines = lineItems.size();
